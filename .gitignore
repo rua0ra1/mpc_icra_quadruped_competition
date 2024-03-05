@@ -2,3 +2,5 @@
 *.pyc
 
 urdf/xacro2urdf.sh
+
+*legged_control
