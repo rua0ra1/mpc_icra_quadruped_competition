@@ -1,11 +1,12 @@
 <launch>
 
     <arg name="user_debug" default="false"/>
+    <arg name="rviz"       default="false"/>
     
     <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find go1_description)/xacro/robot.xacro'
             DEBUG:=$(arg user_debug)"/>
 
-    <node pkg="rviz" type="rviz" name="rviz" respawn="false" output="screen"
+    <node if="$(arg rviz)" type="rviz" name="rviz" respawn="false" output="screen"
         args="-d $(find go1_description)/launch/check_joint.rviz"/>
 
 </launch>
