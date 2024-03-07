@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ram/icra_quadraped_comptettion/my_icra_project/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ram/icra_quadraped_comptettion/my_icra_project/catkin_ws/src/mpc_icra_quadruped_competition/ros_unitree-master/unitree_ros/unitree_controller/include/**",
+        "/home/ram/icra_quadraped_comptettion/my_icra_project/catkin_ws/src/mpc_icra_quadruped_competition/ros_unitree-master/unitree_guide/unitree_guide/include/**",
+        "/home/ram/icra_quadraped_comptettion/my_icra_project/catkin_ws/src/mpc_icra_quadruped_competition/ros_unitree-master/unitree_ros/unitree_legged_control/include/**",
+        "/home/ram/icra_quadraped_comptettion/my_icra_project/catkin_ws/src/mpc_icra_quadruped_competition/ros_unitree-master/unitree_ros/z1_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

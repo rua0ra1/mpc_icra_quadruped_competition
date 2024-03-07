@@ -3,4 +3,4 @@
 
 urdf/xacro2urdf.sh
 
-*legged_control
+legged_control/
